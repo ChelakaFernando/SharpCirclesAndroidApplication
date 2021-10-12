@@ -11,6 +11,6 @@ public class Dashboard extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
-        Toast.makeText(this, "hey", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "hello world", Toast.LENGTH_SHORT).show();
     }
 }
